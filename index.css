@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url('./images/brando-makes-branding-Kr2Myi0WUws-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background : white ;
+
+    display: flex;
+    justify-content: center;
+    align-items:center
+    
+    
+    } 
+.card {
+     background: white ;
+     box-shadow: 0 0 10px black;  
+     width: 600px;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     margin-top: 100px;
+     
+}
+.card-image-container img {
+    width: 350px;
+    padding-right: 10px;
+
+    
+}
+.card-login {
+    width:300px;
+    background: white;
+    box-shadow: 0 0 10px black;  
+    border-radius: 4px;
+    margin-right: -300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+.login-header{
+    padding: 15px;
+}
+.login-header span{
+    font-size:24px;
+    font-weight:600;
+}
+ .login-content {
+    padding: 10px;
+ }
+ .login-content-span{
+    margin-bottom: 10px;
+    
+ }
+  .login-content-span label {
+    font-size: 18px;
+  }
+  .login-content-span input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    ouline:1px solid #a39b9b;
+    margin-top: 5px;
+  }
+  .login-actions {
+    padding: 10px;
+  }
+  .login-actions button {
+    width: 70px;
+    height: 30px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: .8s;
+  }
+.login-actions button:hover {
+    transform: scale(0.8);
+}
